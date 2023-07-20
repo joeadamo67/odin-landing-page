@@ -151,3 +151,50 @@ body{
     font-weight: bold;
     color:#1F2937;
 }
+
+/* Section 5 - Call to Action */
+
+.call-to-action{
+    display: flex;
+    margin: 50px 10%;
+    padding: 20px 10%;
+
+    background-color: #3882F6;
+    align-items: center;
+    border-radius: 10px;
+}
+.cta{
+    flex-grow: 3;
+    color: #E5E7EB;
+
+}
+
+.cta h5{
+    font-weight: bold;
+    font-size: 24px;
+
+    margin: 0;
+}
+.cta p{
+
+    margin: 0;
+    font-size: 18px;
+
+}
+.cta-button { 
+    flex-grow: 1;
+    color: #E5E7EB;
+    padding: 5px 0;
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
