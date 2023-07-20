@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+/* Header - Section 1 */
+.navHeader { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    background-color: #1F2937;
+}
+.header-logo{
+    display: flex;
+    width: 50%;
+    margin-left: 10%;
+    align-items: center;
+    color: #f9faf8;
+    font-size: 24px;
+}
+.nav {
+    display: flex;
+    width: 50%;
+
+    margin-right: 10%;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+    
+    color: #E5E7EB;
+
+    font-size: 18px;
+}
+/* Banner - Section 2 */
+.banner{
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    background-color: #1F2937;
+}
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    margin: 50px 0px 50px 10%;
+
+
+}
+.banner-text h1{
+    margin: 2px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8
+}
+.banner-text p{
+    color: #E5E7EB;
+    margin: 2px;
+    font-size: 18px;
+}
+.banner-text button{
+    background-color: #3882F6;
+    color: #f9faf8;
+    width: 20%;
+    margin: 2px;
+
+    padding: 5px 0px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 50px 10% 50px 0px;
+    background-color: gray;
+    color: #f9faf8;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Section 3 - Cards */
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.information h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937
+}
+.card-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.card-image{ 
+    height: 100px;
+    width: 100px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+
+}
+
+.card-text {
+    width: 100px;
+    text-align: center;
+}
