@@ -42,3 +42,36 @@ const max = 57;
 let actual = max-13;
 let percentage = actual/max;
 let remainder = actual%max;
+
+function favoriteAnimal(animal) {
+    return animal + " is my favorite animal!";
+  }
+ 
+  console.log(favoriteAnimal('Goat'))
+
+  let animalFavorite = (animal) => {
+    return animal +" is my favorite animal!";
+  }
+
+  console.log(animalFavorite("Dog"));
+
+  let add7 = (number) => {
+    return number+7;
+  }
+
+  let multiply = (num1, num2) => {
+    return num1*num2;
+  }
+
+  let capitalize = (string) => {
+    let temp = string.toLowerCase();
+
+    let firstLetter = temp.slice(0,1).toUpperCase();
+    let endOfString = temp.slice(1);
+
+    return firstLetter+endOfString;
+  }
+
+  let lastLetter = (string) => {
+    return string.slice(string.length-1,string.length);
+  }
